@@ -36,7 +36,7 @@ def code_append(key):
 
 
     #存储到文件里
-    data = open('/Users/mrx/Documents/MyPython(workspace/Net_Code/data.txt','a')
+    data = open('*********此处请放data.txt绝对路径，记得加上单引号**********','a')
     data.write(str(netname2))
     data.write(str(username2))
     data.write(str(password2))
@@ -46,7 +46,7 @@ def code_append(key):
 
 
 def code_look(key):
-    data = open('/Users/mrx/Documents/MyPython(workspace/Net_Code/data.txt','r')
+    data = open('*********此处请放data.txt绝对路径，记得加上单引号**********','r')
     file=str(data.read())
     file2=''
 
@@ -66,7 +66,7 @@ def code_append_ai(key):
     while x>0:
         netname1=str(input('请输入域名/软件描述:'))
         username1=str(input('请输入账号名:'))
-        password0=random.sample('''qwertyuiop[]/asdfghjkl;'zxcvbnm,./1234567890-=!@#$%^&*''',12)
+        password0=random.sample('''qwertyuiop[]/asdfghjkl;'zxcvbnm,./1234567890-=!@#$%^&*''',12) #这里是高强度密码可能出现的内容，可以自由更改
         #print(password0)
         #列表转字符串
         password1=''
@@ -104,7 +104,7 @@ def code_append_ai(key):
 
 
     #存储到文件里
-    data = open('/Users/mrx/Documents/MyPython(workspace/Net_Code/data.txt','a')
+    data = open('*********此处请放data.txt绝对路径，记得加上单引号**********','a')
     data.write(str(netname2))
     data.write(str(username2))
     data.write(str(password2))
@@ -138,7 +138,10 @@ while cheak != 'q':
         code_append_ai(psw)
     elif cheak=='x':
         print('''
-
+        此处内容可能不完整，请看github里的readme
+        https://github.com/MRX-J0BS/-
+        
+        
         以下是帮助手册
         --如何确定主密钥--
         在第一次运行程序时，输入psw，回复一个1-50的数字，并且 牢记！！！！！ 主密钥忘了就完犊子了
